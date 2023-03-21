@@ -882,15 +882,15 @@
 <section class="hero teaser">
     <div class="container is-max-desktop">
         <div class="hero-body">
+            <h2 class="subtitle has-text-centered">
+                Image generators (e.g., Dall&#x2022;E-2) leave unique artifacts, <strong>fingerprints</strong>, within generated
+                images. With <strong>DIF</strong> we extract these fingerprints of the generative model from a
+                small set of real and generated images and utilize them for the detection of generated images.
+            </h2>
+            <br>
             <div id="teaser" class="has-text-centered">
                 <img style="width: 110%;" src="DIF_files/teaser.jpg" alt="Blended Diffusion teaser.">
             </div>
-            <br>
-            <h2 class="subtitle has-text-centered">
-                With <strong>DIF</strong> we extract the <strong>fingerprint</strong> of the generative model from a
-                small set of real and generated images and
-                utilizes it to detect its generated images.
-            </h2>
         </div>
     </div>
 </section>
@@ -957,11 +957,9 @@
                         (DIF)</strong>.
                     </p>
                     <p>
-                        DIFs have a few applications. Firstly, since DIFs are highly correlated with
-                        generated images, we can use them to detect synthetic images. Secondly, we show that fine-tuned
-                        image generators preserve the same fingerprint as their source model. Therefore, images produced
-                        by these generators are easily detectable if we have extracted the fingerprint of the source
-                        model.
+                        DIF has a few applications. Firstly, with DIF we achieved high accuracy on detection of synthetic images.
+                        Secondly, we show that fine-tuned image generators preserve the same fingerprint as their source model.
+                        Therefore, with DIF you may trace the origin of fine-tuned model.
                     </p>
                     <br>
                     <p align="center">For more details please refer to the paper.</p>
