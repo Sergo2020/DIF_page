@@ -26,7 +26,7 @@ html {
 }
 
 body {
-    margin: 0
+    margin: 0;
 }
 
 ::-moz-selection {
@@ -72,7 +72,7 @@ body {
     margin: 0;
     padding: 0;
     color: #494e52;
-    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-family: -apple-system, "Roboto", Arial, sans-serif;
     line-height: 1.5
 }
 
@@ -1868,7 +1868,7 @@ input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focu
 }
 
 .page__content h2 {
-    padding-bottom: 0.5em;
+    padding-bottom: 0.25em;
     border-bottom: 1px solid #f2f3f3
 }
 
@@ -2991,4 +2991,10 @@ input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focu
 .inst_column p {
     margin-top: 0.0em;
     margin-bottom: 0.0em;
+}
+
+mark {
+  display: inline-block;
+  line-height: 0em;
+  padding-bottom: 0.5em;
 }
