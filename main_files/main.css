@@ -2931,7 +2931,7 @@ input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focu
 
     display: flex;
     justify-content: left;
-    font-size: 1.2em;
+    font-size: 1.0em;
     align-items: flex-end;
     margin-top: auto;
 
