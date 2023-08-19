@@ -2888,7 +2888,7 @@ input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focu
 /*Custom */
 
 .pub_section {
-    height: 10em;
+    height: 12em;
     display: flex;
     margin-bottom: 2em;
 }
@@ -2961,9 +2961,10 @@ input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focu
 }
 
 .inst_img {
-    flex: 10%;
+    /*flex: 10%;*/
     margin-top: auto;
     margin-bottom: auto;
+    width: 6em;
 }
 
 .inst_img img {
